@@ -224,7 +224,8 @@ public class Apartment {
 	}
   }
 
-  // Безопасный ввод числа с плавающей точкой
+  // Безопасный ввод числа с плавающей точкойдруг привет
+
   private static double safeInputDouble (Scanner sc) {
 	while (true) {
 	  try {
