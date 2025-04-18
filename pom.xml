@@ -35,7 +35,20 @@
             <version>${spring-boot.version}</version>
             <scope>test</scope>
         </dependency>
+        
+    <dependency>
+        <groupId>org.jetbrains</groupId>
+        <artifactId>annotations</artifactId>
+        <version>24.0.0</version> <!-- Убедитесь, что это актуальная версия -->
+    </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
 
     <!-- Сборка -->
     <build>
